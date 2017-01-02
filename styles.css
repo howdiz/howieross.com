@@ -1,44 +1,23 @@
-html, body{
-  height: 100%;
-}
-body {
+.jumbotron {
   background-image: url(IMG_1104.JPG);
-  background-position: center center;
-  background-repeat:  no-repeat;
-  background-attachment: fixed;
-  background-size:  cover;
-  background-color: #999;
-}
-div, body{
-  margin: 0;
-  padding: 0;
-  font-family: exo, sans-serif;
-}
-.wrapper {
-  height: 100%;
-  width: 100%;
-}
-.message {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 100%;
-  bottom: 0;
-  display: block;
-  position: absolute;
-  background-color: rgba(0,0,0,0.6);
-  color: #fff;
-  padding: 0.5em;
-}
-a {
-  transition: color .4s;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: white;
+  min-height: 250px;
 }
-a:link,
-a:visited { color: white; }
-a:hover   { color: #7FDBFF; }
-a:active  {
-  transition: color .3s;
-  color: #007BE6;
+
+@media only screen and (min-width : 321px) {
+  .jumbotron {
+    min-height: 325px;
+  }
 }
-.link { text-decoration: none; }
+@media only screen and (min-width : 768px) {
+  .jumbotron {
+    min-height: 525px;
+  }
+}
+@media only screen and (min-width : 1024px) {
+  .jumbotron {
+    min-height: 725px;
+  }
+}
