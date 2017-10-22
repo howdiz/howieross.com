@@ -1,5 +1,5 @@
 .jumbotron {
-  background-image: url(IMG_1104.JPG);
+  background-image: url(linodepic.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -9,21 +9,25 @@
 @media only screen and (min-width : 321px) {
   .jumbotron {
     min-height: 325px;
+    background-position: right;
   }
 }
 @media only screen and (min-width : 768px) {
   .jumbotron {
-    min-height: 525px;
+    min-height: 425px;
   }
 }
 @media only screen and (min-width : 1024px) {
   .jumbotron {
-    min-height: 725px;
+    min-height: 525px;
   }
 }
 
 .fa {
   font-size:36px;
-  color:white;
-  margin-right: 5px;
+  color:black;
+}
+.icons {
+  width: 200px;
+  margin: auto;
 }
